@@ -60,7 +60,7 @@ namespace WebApplicationTesting.Controllers
 
             if (product is null)
             {
-                throw new NullReferenceException("Product must not be null..");
+                throw new NullReferenceException("Product must not be null...");
             }
             return View(product);
 
